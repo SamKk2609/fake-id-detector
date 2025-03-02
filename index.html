@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fake ID Detector</title>
+</head>
+<body>
+    <header>
+        <h1>Fake ID Detector</h1>
+        <p>Enter your details to check if the account is legitimate.</p>
+    </header>
+    <div class="container">
+        <div class="input-section">
+            <h2>Input Details</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username">
+            <label for="followers">Followers:</label>
+            <input type="number" id="followers" placeholder="Enter number of followers">
+            <label for="posts">Posts:</label>
+            <input type="number" id="posts" placeholder="Enter number of posts">
+            <button onclick="detectFakeID()">Check ID</button>
+        </div>
+        <div class="result-section">
+            <h3>Result:</h3>
+            <p id="result-message"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Fake ID Detector. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
