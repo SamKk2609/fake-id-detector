@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('ID.jpg');
+    background-size:cover;
+    
+            opacity: 0.9;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #061929, #00f2fe);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.7em;
+    font-family:cursive;
+    color:white;
+}
+
+header p {
+    font-size: 1.6em;
+
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Input Section */
+.input-section h2 {
+    margin-bottom: 15px;
+    color: #081f34;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #3a8edb;
+}
+
+/* Result Section */
+.result-section {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed #4facfe;
+    border-radius: 8px;
+    background: #e8f8ff;
+}
+
+.result-section h3 {
+    margin-bottom: 10px;
+    color: #3a8edb;
+}
+
+#result-message {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+}
